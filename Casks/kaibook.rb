@@ -14,12 +14,12 @@ cask "kaibook" do
   # --- Architecture-specific URLs ---
   on_arm do
     url "https://github.com/Vasanth-FlowVeeran/Kai-Book/releases/download/v#{version}/KaiBook_#{version}_aarch64.dmg"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "e80499ae242c50c9d535d9cadff13b78cb01e1e1f9a94064c1589c4bb7d0d69c"
   end
 
   on_intel do
     url "https://github.com/Vasanth-FlowVeeran/Kai-Book/releases/download/v#{version}/KaiBook_#{version}_x64.dmg"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "a94ea55093fd73b20eccb8372849d43b4c0c8492a850c480c52594ee9d16e21f"
   end
 
   name "KaiBook"
